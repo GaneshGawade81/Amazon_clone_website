@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  width: 350px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+/* Title */
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* Labels */
+.card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Inputs */
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 12px;
+  background: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background: #ddb347;
+}
+
+/* Terms */
+.terms {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #555;
+  text-align: center;
+}
+
+.terms a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+/* Sign in */
+.signin {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.signin a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.signin a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 420px) {
+  .card {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.nav-country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-hover:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.country-box {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.label {
+  font-size: 11px;
+  color: #ccc;
+}
+
+.country-select {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.country-select option {
+  color: black;
+}
